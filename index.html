@@ -13,7 +13,7 @@
         <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top img-fluid">
+                    <img src="img/logo.png" alt="Logo" class="d-inline-block align-text-top img-fluid">
                   </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,8 +37,12 @@
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <input class="form-control rounded-0" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success rounded-0" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                </button>
                 </form>
               </div>
             </div>
@@ -67,8 +71,8 @@
 
         <section id="services" class="services container-md py-5">
             <h2>Our Services</h2>
-            <div class="row justify-content-center pb-2">
-                <div class="card col-md" style="width: 18rem;">
+            <div class="row mx-2 justify-content-center pb-2">
+                <div class="card mb-3 mx-3 mx-md-0 mb-md-0 col-md rounded-0 p-0">
                     <img src="img/digital.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Digital Transformation</h5>
@@ -76,7 +80,7 @@
                       <a href="#" class="btn btn-primary">Digital Plans &raquo;</a>
                     </div>
                 </div>
-                <div class="card col-md" style="width: 18rem;">
+                <div class="card mb-3 mx-3 mx-md-2 mb-md-0 col-md rounded-0 p-0">
                     <img src="img/marketing.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Marketing</h5>
@@ -85,8 +89,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="card col-md" style="width: 18rem;">
+            <div class="row mx-2 justify-content-center">
+                <div class="card mb-3 mx-3 mx-md-2 mb-md-0 col-md rounded-0 p-0">
                     <img src="img/digital.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Video Production</h5>
@@ -94,7 +98,7 @@
                       <a href="#" class="btn btn-primary">Video Plans &raquo;</a>
                     </div>
                 </div>
-                <div class="card col-md" style="width: 18rem;">
+                <div class="card mb-3 mx-3 mx-md-2 mb-md-0 col-md rounded-0 p-0">
                     <img src="img/digital.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Web Development</h5>
@@ -102,7 +106,7 @@
                       <a href="#" class="btn btn-primary">Web Plans &raquo;</a>
                     </div>
                 </div>
-                <div class="card col-md" style="width: 18rem;">
+                <div class="card mb-3 mx-3 mx-md-2 mb-md-0 col-md rounded-0 p-0">
                     <img src="img/digital.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Print</h5>
@@ -117,7 +121,7 @@
             <div class="container">                
                 <h2>Our Vision</h2>
                 <p>Our vision is to become a leading media company that empowers businesses to thrive in the digital age. We aim to provide exceptional services that help our clients achieve their goals, exceed their expectations, and build long-term relationships with them.</p>
-                <button type="button" class="btn btn-primary btn-lg">Learn More &raquo;</button>
+                <button type="button" class="btn btn-dark btn-lg rounded-0 px-4 py-lg-4">Learn More &raquo;</button>
             </div>
         </section>
 
@@ -125,18 +129,18 @@
             <h2>Our Team</h2>
             <div class="row no-gutter">
                 <img src="img/john.jpg" alt="A portrait of John Doe" class="img-fluid col-md-6 px-0">
-                <div class="col-md">
+                <div class="col-md team-member py-3">
                     <h3>John Doe</h3>
                     <p class="h5">CEO and Co-owner</p>
-                    <hr>
+                    <hr class="border-primary border-3">
                     <p>With over 20 years of experience in the media industry, John brings a wealth of knowledge and expertise to our team. He is passionate about helping businesses grow and succeed.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md order-1 order-md-0">
+                <div class="col-md order-1 order-md-0 team-member py-3">
                     <h3>Bob Rite</h3>
                     <p class="h5">CFO and Co-owner</p>
-                    <hr>
+                    <hr class="border-primary border-3">
                     <p>Bob has over 15 years of experience in finance and management, and he is responsible for overseeing our company's financial operations. He is committed to ensuring that our clients receive the best possible value for their investment.</p>
                 </div>
                 <img src="img/bob.jpg" alt="A portrait of Bob Rite" class="img-fluid col-md-6 order-0 order-md-1 px-0">

@@ -1,5 +1,20 @@
 :root {
     --color-light-beige: #ffe6ac;
+    --color-gold: #c68d00;
+
+    --bs-primary-rgb: 198, 141, 0
+}
+
+.nav-link, 
+.navbar-nav .nav-link.active {
+    color: var(--color-gold);
+}
+
+.nav-link:hover, 
+.navbar-nav .nav-link.active:hover {
+    background-color: var(--color-gold);
+    color: black;
+    /* padding: 2rem; */
 }
 
 img, object {
@@ -23,4 +38,46 @@ img, object {
 
 .vision {
     background-image: url('../img/vision.jpg');
+}
+
+.btn-outline-success {
+    --bs-btn-color: var(--color-gold);
+    --bs-btn-border-color: var(--color-gold);
+    --bs-btn-hover-bg: var(--color-gold);
+    --bs-btn-hover-border-color: var(--color-gold);
+}
+
+.logo {
+    max-width: 4rem;
+}
+
+.btn-primary {
+    border-radius: 0;
+    background: var(--color-gold);
+    border: 1px solid var(--color-gold);
+    color: black;
+}
+
+.btn-primary:hover {
+    background: black;
+    color: var(--color-gold);
+    border: 1px solid black;
+}
+
+.card {
+    background: var(--color-light-beige);
+    border: none;
+}
+
+.card img {
+    border-radius: 0;
+
+}
+
+.team-member {
+    background: var(--color-light-beige);
+}
+
+.team hr {
+    opacity: 1;
 }
