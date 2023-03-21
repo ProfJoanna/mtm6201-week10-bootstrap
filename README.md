@@ -1,7 +1,7 @@
 # mtm6201-week10-bootstrap
 Bootstrap one-page website for a media company
 
- - [ ] Use as few images as possible
+ - [x] Use as few images as possible
  - [ ] Optimize images for web
  - [ ] Reduce the image size by using compressed versions or newer image formats like WebP
  - [ ] Resize images to the maximum required size before adding them to the page
