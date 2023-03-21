@@ -57,7 +57,7 @@
             </div>
         </section>
 
-        <section id="about-us" class="about-us container-fluid py-5">
+        <section id="about-us" class="about-us container-fluid py-5 bg-secondary">
             <div class="container">
                 <div class="row row-cols-md-2">
                     <img src="img/about-us.jpg" alt="View of the inside of the office at Three Star Media" class="col img-fluid">
@@ -74,7 +74,7 @@
             <div class="row mx-2 justify-content-center pb-2">
                 <div class="card mb-3 mx-3 mx-md-0 mb-md-0 col-md rounded-0 p-0">
                     <img src="img/digital.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body bg-secondary">
                       <h5 class="card-title">Digital Transformation</h5>
                       <p class="card-text">We help businesses leverage the latest digital technologies to transform their operations and stay competitive.</p>
                       <a href="#" class="btn btn-primary">Digital Plans &raquo;</a>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="card mb-3 mx-3 mx-md-2 mb-md-0 col-md rounded-0 p-0">
                     <img src="img/marketing.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body bg-secondary">
                       <h5 class="card-title">Marketing</h5>
                       <p class="card-text">Our team of marketing experts develops tailored strategies that help businesses reach their target audience and achieve their goals.</p>
                       <a href="#" class="btn btn-primary">Marketing Plans &raquo;</a>
@@ -92,7 +92,7 @@
             <div class="row mx-2 justify-content-center">
                 <div class="card mb-3 mx-3 mx-md-2 mb-md-0 col-md rounded-0 p-0">
                     <img src="img/video.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body bg-secondary">
                       <h5 class="card-title">Video Production</h5>
                       <p class="card-text">We create high-quality video content that engages audiences and tells compelling stories.</p>
                       <a href="#" class="btn btn-primary">Video Plans &raquo;</a>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="card mb-3 mx-3 mx-md-2 mb-md-0 col-md rounded-0 p-0">
                     <img src="img/web.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body bg-secondary">
                       <h5 class="card-title">Web Development</h5>
                       <p class="card-text">We design and develop custom websites that are user-friendly, responsive, and optimized for search engines.</p>
                       <a href="#" class="btn btn-primary">Web Plans &raquo;</a>
@@ -108,7 +108,7 @@
                 </div>
                 <div class="card mb-3 mx-3 mx-md-2 mb-md-0 col-md rounded-0 p-0">
                     <img src="img/print.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body bg-secondary">
                       <h5 class="card-title">Print</h5>
                       <p class="card-text">Our team of designers creates stunning print materials that capture the essence of our clients' brands and communicate their message effectively.</p>
                       <a href="#" class="btn btn-primary">Print Plans &raquo;</a>
@@ -129,7 +129,7 @@
             <h2>Our Team</h2>
             <div class="row no-gutter">
                 <img src="img/john.jpg" alt="A portrait of John Doe" class="img-fluid col-md-6 px-0">
-                <div class="col-md team-member py-3">
+                <div class="col-md team-member py-3 bg-secondary">
                     <h3>John Doe</h3>
                     <p class="h5">CEO and Co-owner</p>
                     <hr class="border-primary border-3">
@@ -137,7 +137,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md order-1 order-md-0 team-member py-3">
+                <div class="col-md order-1 order-md-0 team-member py-3 bg-secondary">
                     <h3>Bob Rite</h3>
                     <p class="h5">CFO and Co-owner</p>
                     <hr class="border-primary border-3">
@@ -150,48 +150,50 @@
         <section id="contact" class="contact container">
             <h2>Contact Us</h2>
             <div class="row">
-                <form class="message col-md">
-                    <h3>Send us a message</h3>
-                    <label for="full-name">Full Name</label>
-                    <br>
-                    <input type="text" id="full-name">
-                    <br>
-                    <label for="email">Email</label>
-                    <br>
-                    <input type="email" id="email">
-                    <br>
-                    <label for="message">Message</label>
-                    <br>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                    <br>
-                    <input type="submit" value="Send">
+              <div class="message col-md-6">
+                <form>
+                  <div class="mb-3">
+                    <label for="fullName" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="fullName">
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">E-mail Address</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Send</button>
                 </form>
-                <div class="location col-md py-3">
-                    <h3>Location</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5607.8894949712785!2d-75.76186555745866!3d45.34992759908121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1salgonquin%20college!5e0!3m2!1sen!2sca!4v1678822646210!5m2!1sen!2sca" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+              </div>
+
+              <div class="location col-md-6 order-last">
+                  <h3>Location</h3>
+                  <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5607.8894949712785!2d-75.76186555745866!3d45.34992759908121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1salgonquin%20college!5e0!3m2!1sen!2sca!4v1678822646210!5m2!1sen!2sca" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <section class="hours my-3 order-md-last col-md">
+                  <h3>Hours of operation</h3>
+                  <table class="table">
+                      <thead class="bg-secondary">
+                        <tr>
+                          <th scope="col">Days</th>
+                          <th scope="col">Hours</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Monday - Friday</td>
+                          <td><time>9 AM</time> - <time>6 PM</time></td>
+                        </tr>
+                        <tr>
+                          <td>Saturday - Sunday</td>
+                          <td>Closed</td>
+                        </tr>
+                      </tbody>
+                    </table>
+              </section>
             </div>
-            <section class="hours py-5">
-                <h3>Hours of operation</h3>
-                <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Days</th>
-                        <th scope="col">Hours</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Monday - Friday</td>
-                        <td><time>9 AM</time> - <time>6 PM</time></td>
-                      </tr>
-                      <tr>
-                        <td>Saturday - Sunday</td>
-                        <td>Closed</td>
-                      </tr>
-                    </tbody>
-                  </table>
-            </section>
         </section>
     </main>
     <footer class="container-fluid bg-dark text-light py-3" data-bs-theme="dark">

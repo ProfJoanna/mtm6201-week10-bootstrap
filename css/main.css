@@ -2,7 +2,8 @@
     --color-light-beige: #ffe6ac;
     --color-gold: #c68d00;
 
-    --bs-primary-rgb: 198, 141, 0
+    --bs-primary-rgb: 198, 141, 0;
+    --bs-secondary-rgb: 255, 230, 172;
 }
 
 .nav-link, 
@@ -65,7 +66,6 @@ img, object {
 }
 
 .card {
-    background: var(--color-light-beige);
     border: none;
 }
 
@@ -75,7 +75,7 @@ img, object {
 }
 
 .team-member {
-    background: var(--color-light-beige);
+    /* background: var(--color-light-beige); */
 }
 
 .team hr {
