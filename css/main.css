@@ -81,3 +81,8 @@ img, object {
 .team hr {
     opacity: 1;
 }
+
+/* 768 px = 48 em */
+@media screen and (min-width: 48em) {
+
+}
