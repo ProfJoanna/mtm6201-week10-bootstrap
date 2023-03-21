@@ -15,7 +15,6 @@
 .navbar-nav .nav-link.active:hover {
     background-color: var(--color-gold);
     color: black;
-    /* padding: 2rem; */
 }
 
 img, object {
@@ -74,9 +73,6 @@ img, object {
 
 }
 
-.team-member {
-    /* background: var(--color-light-beige); */
-}
 
 .team hr {
     opacity: 1;
